@@ -1,0 +1,23 @@
+# Python virtual environment
+backend/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local database
+backend/shopping.db
+
+# Dataset files
+backend/data/*.csv
+
+# Node.js dependencies
+frontend/node_modules/
+
+# Frontend build files
+frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
